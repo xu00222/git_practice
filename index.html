@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的自我介紹</title>
+  <style>
+    /* 全域樣式 */
+    body {
+      font-family: "Microsoft JhengHei", sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    /* 頁首 */
+    header {
+      background-color: #0078d7;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* 主要內容區 */
+    main {
+      padding: 40px;
+      max-width: 800px;
+      margin: 30px auto;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    section h2 {
+      color: #0078d7;
+      border-bottom: 2px solid #0078d7;
+      padding-bottom: 5px;
+    }
+
+    #about img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      display: block;
+      margin: 20px auto;
+      object-fit: cover;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    /* 聯絡資訊 */
+    a {
+      color: #0078d7;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* 頁尾 */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- 頁首 -->
+  <header>
+    <h1>👨‍💻 我的自我介紹網站</h1>
+    <nav>
+      <a href="#about">關於我</a>
+      <a href="#skills">技能</a>
+      <a href="#contact">聯絡我</a>
+    </nav>
+  </header>
+
+  <!-- 主內容 -->
+  <main>
+    <!-- 關於我 -->
+    <section id="about">
+      <h2>關於我</h2>
+      <p>你好！我是小明，一位熱愛網站設計與前端開發的工程師。我喜歡將設計概念轉化成互動、有創意的網頁，追求乾淨的程式碼與優雅的使用者體驗。</p>
+      <img src="https://i.pravatar.cc/300" alt="個人照片">
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills">
+      <h2>我的技能</h2>
+      <ul>
+        <li>HTML / CSS / JavaScript</li>
+        <li>React / Vue / Bootstrap</li>
+        <li>Node.js / RESTful API</li>
+        <li>UI / UX 設計基礎</li>
+        <li>Git / GitHub 版本控制</li>
+      </ul>
+    </section>
+
+    <!-- 聯絡我 -->
+    <section id="contact">
+      <h2>聯絡我</h2>
+      <p>📧 Email：<a href="mailto:ming@example.com">ming@example.com</a></p>
+      <p>💻 GitHub：<a href="https://github.com/你的帳號" target="_blank">github.com/你的帳號</a></p>
+      <p>📱 LinkedIn：<a href="https://linkedin.com/in/你的帳號" target="_blank">linkedin.com/in/你的帳號</a></p>
+    </section>
+  </main>
+
+  <!-- 頁尾 -->
+  <footer>
+    © 2025 小明的個人網站 | 版權所有
+  </footer>
+</body>
+</html>
